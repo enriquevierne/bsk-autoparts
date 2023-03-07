@@ -78,7 +78,7 @@ nav {
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
     color: var(--color-grey-7);
 }
 
@@ -92,3 +92,291 @@ nav {
     text-align: center;
     font-size: 1.5rem;
 }
+
+.main-products {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.main-products > h2{
+
+    font-size: 2.5rem;
+    color: var(--color-brand);
+    font-weight: 600;
+    padding: 3rem;
+
+}
+
+.list-products{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.extend{
+    
+    background-image: url(/src/assets/RANGER-OKAY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 30%;
+    max-width: 582px;
+    height: 582px;
+    position: relative;
+    transition: .5s;
+    cursor: pointer;
+}
+.extend:hover{
+    
+    transform: scale(1.03);
+
+}
+
+.object-style-left-bottom{
+
+    width: 0;
+    height: 0;
+    border: 30px solid;
+    border-color: transparent transparent var(--color-grey-1) var(--color-grey-1) ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+.object-style-right-top{
+
+    width: 0;
+    height: 0;
+    border: 30px solid;
+    border-color: var(--color-grey-1) var(--color-grey-1)  transparent transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+
+.description-product{
+    
+    width: 20%;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.select-extend{
+    
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+
+.select-extend > p{
+    
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: left;
+    color: var(--color-grey-7);
+    transition: .15s;
+}
+.select-extend > p:hover{
+
+    color: var(--color-brand);
+
+}
+
+.select-divisor{
+    
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.select-divisor > p{
+    
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: right;
+    color: var(--color-grey-7);
+    
+}
+.select-divisor > p:hover{
+
+    color: var(--color-brand);
+
+}
+
+.divisor{
+    
+    background-image: url(/src/assets/TRITON-OKAY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 30%;
+    max-width: 582px;
+    height: 582px;
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    position: relative;
+    transition: .5s;
+    cursor: pointer;
+}
+.divisor:hover{
+    
+    transform: scale(1.03);
+
+}
+
+.object-style-right-bottom{
+
+    width: 0;
+    height: 0;
+    border: 30px solid;
+    border-color:  transparent  var(--color-grey-1) var(--color-grey-1)  transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.object-style-left-top{
+    
+    width: 0;
+    height: 0;
+    border: 30px solid;
+    border-color: var(--color-grey-1) transparent transparent var(--color-grey-1)    ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+.view-product{
+
+    width: 100%;
+    background-color: var(--color-grey-7);
+    
+}
+.view-product > h2{
+
+    font-size: 3rem;
+    padding: 3rem 0rem;
+    text-align: center;
+    color: var(--color-brand);
+    font-weight: 600;
+
+}
+.section-product{
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.section-product-left{
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1.6rem;
+}
+.card-product-left{
+    
+    display: flex;
+    gap: 1rem;
+    
+    
+}
+.card-product-left > img{
+
+    width: 500px;
+    height: 333px;
+
+}
+.info-card-left{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 1rem;
+    gap: 1.5rem;
+}
+.info-card-left > p{
+
+    font-size: 1.5rem;
+
+}
+.section-product-right{
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 1.6rem;
+
+}
+.card-product-right{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    text-align: right;
+}
+.card-product-right > img{
+
+    width: 500px;
+    height: 333px;
+    
+}
+.info-card-right{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding: 0rem 1rem;
+    gap: 1.5rem;
+}
+.info-card-right > p{
+
+    font-size: 1.5rem;
+
+}
+.btns-card{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    
+}
+.btn-purchase{
+
+
+
+}
+.btn-info{
+
+
+
+}
+
