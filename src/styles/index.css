@@ -1,0 +1,94 @@
+.full-container {
+
+    background-color: var(--color-grey-1);
+}
+
+header {
+
+    width: 100%;
+    height: 150px;
+    background-color: var(--color-grey-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+
+nav {
+
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-nav {
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.menu-nav{
+
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    color: var(--color-grey-7);
+
+}
+
+.container {
+
+    width: 100%;
+
+
+}
+
+.background-banner {
+
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/HILUX-OKAY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container-banner {
+
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.list-banner {
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list-badges{
+
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+    color: var(--color-grey-7);
+}
+
+.badge{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
