@@ -20,8 +20,10 @@
                 <img src="./src/assets/Logo Icon autoparts.png" width="110px" height="80px" alt="">
             </div>
             <div class="menu-nav">
-                <span>minha conta</span>
-                <img src="./src/assets/arrow.png" alt="">
+                <a href="#category">Nosso produtos</a>
+                <a href="/src/pages/company.html">Empresa</a>
+                <a href="/src/pages/laws.html">Legislação</a>
+                <a href="/src/pages/termsUse.html">Termos e Condições de Uso</a>
             </div>
         </nav>
     </header>
@@ -83,7 +85,9 @@
             <div class="section-product">
                 <div class="section-product-left">
                     <div class="card-product-left">
-                        <img src="./src/assets/HILUX-OKAY.jpg" alt="">
+                        <div class="img-pickup">
+                            <img src="./src/assets/HILUX-OKAY.jpg" alt="">
+                        </div>
                         <div class="info-card-left">
                             <p>Extensor e Divisor para Hilux</p>
                             <div class="btns-card">
@@ -93,7 +97,9 @@
                         </div>
                     </div>
                     <div class="card-product-left">
-                        <img src="./src/assets/RANGER-OKAY.jpg" alt="">
+                        <div class="img-pickup">
+                            <img src="./src/assets/RANGER-OKAY.jpg" alt="">
+                        </div>
                         <div class="info-card-left">
                             <p>Extensor e Divisor para Ranger</p>
                             <div class="btns-card">
@@ -105,7 +111,9 @@
                 </div>
                 <div class="section-product-right">
                     <div class="card-product-right">
-                        <img src="./src/assets/S10-OKAY.jpg" alt="">
+                        <div class="img-pickup">
+                            <img src="./src/assets/S10-OKAY.jpg" alt="">
+                        </div>
                         <div class="info-card-right">
                             <p>Extensor e Divisor para <br> S10</p>
                             <div class="btns-card">
@@ -115,7 +123,9 @@
                         </div>
                     </div>
                     <div class="card-product-right">
-                        <img src="./src/assets/AMAROK-OKAY.jpg" alt="">
+                        <div class="img-pickup">
+                            <img src="./src/assets/AMAROK-OKAY.jpg" alt="">
+                        </div>
                         <div class="info-card-right">
                             <p>Extensor e Divisor para Amarok</p>
                             <div class="btns-card">
@@ -127,7 +137,126 @@
                 </div>
             </div>
         </div>
+        <div class="catalog-cards" id="category">
+            <div class="categories">
+                <button class="btn-promotion btn-category">Promoções</button>
+                <button class="btn-seller btn-category">Mais vendidos</button>
+                <button class="btn-wanted btn-category">Mais procurados</button>
+            </div>
+            <div class="list-view-products">
+                <ul class="promotion">
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/HILUX-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor para Hilux</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas R$1.799,00</p>
+                        <button class="btn-card">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/RANGER-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor para Ranger</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas R$1.799,00</p>
+                        <button class="btn-card">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/TRITON-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor para Triton</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas R$1.799,00</p>
+                        <button class="btn-card">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/S10-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor para Amarok</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas R$1.799,00</p>
+                        <button class="btn-card">Comprar</button>
+                    </li>
+                </ul>
+                <!-- <ul class="best-seller">
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/AMAROK-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor<br>para Amarok</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas<br>R$1.799,00</p>
+                        <button class="btn-purchase">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/HILUX-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor<br>para Hilux</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas<br>R$1.799,00</p>
+                        <button class="btn-purchase">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/TRITON-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor<br>para Triton</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas<br>R$1.799,00</p>
+                        <button class="btn-purchase">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/RANGER-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor<br>para Ranger</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas<br>R$1.799,00</p>
+                        <button class="btn-purchase">Comprar</button>
+                    </li>
+                </ul>
+                <ul class="most-wanted">
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/HILUX-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor<br>para Hilux</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas<br>R$1.799,00</p>
+                        <button class="btn-purchase">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/RANGER-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor<br>para Ranger</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas<br>R$1.799,00</p>
+                        <button class="btn-purchase">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/AMAROK-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor<br>para Amarok</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas<br>R$1.799,00</p>
+                        <button class="btn-purchase">Comprar</button>
+                    </li>
+                    <li class="card">
+                        <img class="img-card" src="./src/assets/TRITON-OKAY-traseira.jpg" alt="">
+                        <p class="title-card">Extensor e Divisor<br>para Triton</p>
+                        <p class="oldPrice-card">de R$2.299,90</p>
+                        <p class="price-card">por apenas<br>R$1.799,00</p>
+                        <button class="btn-purchase">Comprar</button>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="footer-container">
+            <ul class="list-footer">
+                <div class="contact">
+                    <li>Telefone: 47 9 1234-5678</li>
+                    <li>Email: contato@mail.com</li>
+                    <li>Campo Alegre - SC</li>
+                </div>
+                <div class="pages">
+                    <li><a href="/src/pages/company.html">Empresa</a></li>
+                    <li><a href="/src/pages/laws.html">Legislação</a></li>
+                    <li><a href="/src/pages/termsUse.html">Termos e Condições de Uso</a></li>
+                </div>
+            </ul>
+            <div class="logo-footer">
+                <img src="./src/assets/Logo Icon BSK.png" width="100px" height="100px" alt="">
+                <img src="./src/assets/Logo Icon autoparts.png" width="110px" height="80px" alt="">
+            </div>
+        </div>
+    </footer>
 </body>
 <script type="module" src="./src/scripts/index.js"></script>
 
