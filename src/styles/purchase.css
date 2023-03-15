@@ -1,0 +1,49 @@
+.full-container {
+
+    background-color: var(--color-grey-1);
+}
+header {
+
+    width: 100%;
+    height: 150px;
+    background-color: var(--color-grey-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+nav {
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-nav {
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+.menu-nav{
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.menu-nav a{
+    
+    text-decoration: none;
+    color: var(--color-grey-9);
+    transition: .5s;
+    
+}
+.menu-nav a:hover{
+    
+    text-decoration: none;
+    color: var(--color-brand);
+    
+}
