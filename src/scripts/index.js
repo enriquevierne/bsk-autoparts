@@ -21,9 +21,9 @@ const allBtnsPurchase = () => {
 
     btns.forEach(btn => {
 
-        btn.addEventListener('click', () => {
+        btn.addEventListener('click', (e) => {
 
-            window.location.replace('/src/pages/purchase.html')
+            window.location.replace(`/src/pages/purchase-${e.target.dataset.id}.html`)
 
         })
 
