@@ -1,3 +1,14 @@
+const backHome = () => {
+     
+    const btn = document.querySelector('.logo-nav')
+
+    btn.addEventListener('click', () => {
+        
+        window.location.replace('/index.html')
+        
+    })
+}
+
 const renderBundleBuy = () => {
 
     const btn = document.querySelector('.title-bundle-buy')
@@ -80,6 +91,8 @@ const renderLegislation = () => {
     })
 
 }
+
+backHome()
 renderBundleBuy()
 renderDescription()
 renderEspecification()

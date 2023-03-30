@@ -1,4 +1,3 @@
-
 const allBtnBanner = () => {
 
     const btns = document.querySelectorAll('.btn-banner')
