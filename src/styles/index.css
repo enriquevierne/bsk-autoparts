@@ -57,7 +57,7 @@ nav {
 
     width: 100%;
     height: 70vh;
-    background: url(../assets/hilux-OKAY.jpg);
+    background: url(../assets/banner-principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -141,7 +141,7 @@ nav {
 }
 .extend{
     
-    background-image: url(../assets/RANGER-OKAY.jpg);
+    background-image: url(../assets/extend.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -238,7 +238,7 @@ nav {
 }
 .divisor{
     
-    background-image: url(../assets/TRITON-OKAY.jpg);
+    background-image: url(../assets/divisor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -553,6 +553,20 @@ footer{
 }
 
 @media(min-width: 767px){
+
+    .background-banner {
+
+        width: 100%;
+        height: 70vh;
+        background: url(../assets/banner-principal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
 
     .section-product{
     
