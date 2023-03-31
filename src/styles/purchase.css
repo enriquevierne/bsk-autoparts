@@ -72,6 +72,7 @@ nav {
     justify-content: space-between;
     overflow-x: scroll;
     gap: 15px;
+    border-radius: 8px;
 }
 
 
@@ -139,6 +140,7 @@ nav {
 .btn-checkout {
 
     width: 80%;
+    max-width: 250px;
     height: 65px;
     border-radius: 8px;
     font-size: 2rem;
@@ -478,15 +480,41 @@ footer {
 
 @media(min-width: 1023px) {
 
+    .product-container {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .img-product {}
+
+
+    .card-image {}
+
+    .card-image img {}
+
+
+    .info-product {
+
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+
+    }
+    
     .list-bundle-buy {
 
         width: 95%;
         overflow-x: scroll;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        padding-left: 1rem;
+        
     }
 
 }
