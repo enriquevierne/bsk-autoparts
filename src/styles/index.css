@@ -141,7 +141,7 @@ nav {
 }
 .extend{
     
-    background-image: url(/src/assets/RANGER-OKAY.jpg);
+    background-image: url(../assets/RANGER-OKAY.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -238,7 +238,7 @@ nav {
 }
 .divisor{
     
-    background-image: url(/src/assets/TRITON-OKAY.jpg);
+    background-image: url(../assets/TRITON-OKAY.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
